@@ -1,0 +1,23 @@
+
+
+:root {
+  /* fonts */
+  --font-kantumruy: Kantumruy;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --light: #f0f2ef;
+  --color-lightgray: #ccd0ca;
+  --color-black: #000;
+  --color-white: #fff;
+  --btnver: #00a3ff;
+  --color-gray: #1f1b1b;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-3xs: 10px;
+}
