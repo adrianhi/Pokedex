@@ -1,4 +1,3 @@
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,35 +8,56 @@
   width: 150px;
 }
 
-h1 {
-  text-align: center;
-  flex: 1; 
-}
-
 .app {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 280px);
-  margin: 20px 30px 20px 30px;
+  margin: 20px 30px;
 }
 
-.card-img-top{
-  height: 180px;
-}
-.card{
+.card {
   display: flex;
   width: 18rem;
   height: 300px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
 }
-.btn-ver{
+
+.card-img-top {
+  height: 180px;
   border-radius: 50px;
-  width:100px;
-  margin-bottom: 30px;
-  
 }
-.card-title{
+
+.btn-ver {
+  border-radius: 50px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.card-title {
   font-size: 32px;
+}
+
+.tipo {
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px;
+  display: inline;
+}
+
+p,
+caption {
+  font-size: 20px;
+}
+
+#modal-img {
+  width: 90%;
+  height: 70%;
+  border-radius: 50px;
+  border: 3px solid black;
 }
