@@ -8,7 +8,7 @@ function showPokemonModal(pokemonData) {
   modal.setAttribute("aria-labelledby", "exampleModalLabel");
   modal.setAttribute("aria-hidden", "true");
 
-  //Obtengo el segun el tipo de pokemon
+  //Obtengo color el segun el tipo de pokemon
   const typeColorMap = {
     fire: "#F08030",
     water: "#6890F0",
@@ -53,10 +53,6 @@ function createModal(pokemonData, typeColor, modal) {
     <div class="stats">
       <p class="tipo" style="background-color: ${typeColor};"> ${pokemonData.types[0].type.name}</p>
 
-
-
-
-
       <!-------- Estadísticas del Pokémon ------------>
       <div class="table-responsive  ">
       <table class="table table-striped table-hover table-bordered caption-top">
@@ -85,9 +81,10 @@ function createModal(pokemonData, typeColor, modal) {
 </div>
 </div>
 
+
 `;
 
   document.body.appendChild(modal);
   const modalInstance = new bootstrap.Modal(modal);
-  modalInstance.show();
+  modalInstance.show()
 }
