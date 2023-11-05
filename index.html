@@ -8,8 +8,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Kantumruy:wght@400&display=swap"
     />
-    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../Styles/index.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Styles/index.css" />
   </head>
 
   <body>
@@ -38,23 +38,27 @@
     </div>
     <div class="container-fluid app"></div>
     <div class="text-center">
-      <button type="button" id="load-more-button" class="btn btn-primary rounded-pill">
+      <button
+        type="button"
+        id="load-more-button"
+        class="btn btn-primary rounded-pill"
+      >
         Cargar Más Pokémon
       </button>
     </div>
-    
+
     <!-- Capa de superposición y mensaje de carga -->
     <div id="loading-overlay" class="overlay">
       <div class="loading-message">Cargando Pokémon...</div>
     </div>
 
     <!--Bootstrap-->
-    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <!-- Script -->
-    <script src="scripts/Main.js"></script>
-    <script src="scripts/modal.js"></script>
-    <script src="scripts/searchPokemon.js"></script>
-    <script src="scripts/errorMsj.js"></script>
+    <script src="src/scripts/Main.js"></script>
+    <script src="src/scripts/modal.js"></script>
+    <script src="src/scripts/searchPokemon.js"></script>
+    <script src="src/scripts/errorMsj.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
